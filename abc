@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>largest of two numbers</title>
+<script type="text/javascript">
+var a;
+var b;
+
+a=window.prompt("Enter first number:");
+b=window.prompt("Enter second number:");
+
+a=parseInt(a);
+b=parseInt(b);
+
+if(a>b)
+{
+ document.write("a:"+a+" is larger than b:"+b);
+}
+else
+{
+ document.write("b:"+b+ "is larger than a:"+a);
+}
+</script>
+</head>
+<body>
+</body>
+</html> 
